@@ -1,0 +1,420 @@
+canonical_identifier: bkk:krp/KR6c0011/v1
+canonical_location: https://kanripo.org/bkk/KR6c0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大明度經
+  identifiers:
+    alt_id:
+    - T08n0225
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T08/T08n0225.xml
+    old_id: T08n0225
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 元
+  label: 元
+  source_xml_id: wit5
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 聖
+  label: 聖
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: ？
+  label: ？
+  source_xml_id: wit8
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0011_000.yaml, hash: 'sha256:63872e8bb2a000884e881f58ce206d9f09c2bb40018efd3bc73916e51fb64816'}
+  - {seq: 1, filename: KR6c0011_001.yaml, hash: 'sha256:113a62eaa4cb7e6849c1581c9ef42949635cbae59e6b7027f72274cd3f40ab60'}
+  - {seq: 2, filename: KR6c0011_002.yaml, hash: 'sha256:0bd18149a966ef34071bdef11394f17dbb9836d1260b56d34e7d8bcc245c5b21'}
+  - {seq: 3, filename: KR6c0011_003.yaml, hash: 'sha256:bf9660d56239b554a47b14338b3725c262f5455c0aa3da21c053d2c4310e8d9f'}
+  - {seq: 4, filename: KR6c0011_004.yaml, hash: 'sha256:1d28bca2591346bbee580b3619e6be7cd496a7304efc790c7cb733703b2d1e64'}
+  - {seq: 5, filename: KR6c0011_005.yaml, hash: 'sha256:95c01a06d9c563ef537e8063523e2a917e7a712cbef9313a96d7151bf979ad7b'}
+  - {seq: 6, filename: KR6c0011_006.yaml, hash: 'sha256:b828601805c425d78ea7d0899bbba8dbb6b8c37be17cdd15046b2f377c36bf61'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0011_001.markers.yaml, hash: 'sha256:67d3545415dd4768a7f30f6396efacf44d3f5e45a0550dc3d2029e1afa4d9e51'}
+  - {seq: 2, role: markers, filename: assets/KR6c0011_002.markers.yaml, hash: 'sha256:9eac29779c3e8a78453d44d50f7878336dae7d747cf811f966cd04fb1498490d'}
+  - {seq: 3, role: markers, filename: assets/KR6c0011_003.markers.yaml, hash: 'sha256:4b7950231985af0ac820964a46909f1201ba1a6588e980ab6f97b4c70b37a647'}
+  - {seq: 4, role: markers, filename: assets/KR6c0011_004.markers.yaml, hash: 'sha256:d83b965a21844bee7f4f7b6f84b74957ee0c250c0c175be59a652ea4680bdad0'}
+  - {seq: 5, role: markers, filename: assets/KR6c0011_005.markers.yaml, hash: 'sha256:feb9be392a6e95c561141ae6e490b42fe6bf9ed871da5e15c0572bbe5b570a59'}
+  - {seq: 6, role: markers, filename: assets/KR6c0011_006.markers.yaml, hash: 'sha256:f01959fe5aa8debdcadf11ac646714e7ade2522f6381ed6e5fe102fbce8df4af'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0011_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7035
+  label: 大明度經卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0011_T_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 1 行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0011_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7346
+  label: 大明度經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0011_T_002-mulu-1
+    span:
+    - body
+    - 28
+    - 28
+  label: 2 天帝釋問品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0011_T_002-mulu-2
+    span:
+    - body
+    - 1658
+    - 1658
+  label: 3 持品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0011_T_002-mulu-3
+    span:
+    - body
+    - 4295
+    - 4295
+  label: 4 功德品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0011_T_002-mulu-4
+    span:
+    - body
+    - 5456
+    - 5456
+  label: 5 變謀明慧品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0011_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 6801
+  label: 大明度經卷第三
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0011_T_003-mulu-1
+    span:
+    - body
+    - 9
+    - 9
+  label: 6 地獄品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0011_T_003-mulu-2
+    span:
+    - body
+    - 1252
+    - 1252
+  label: 7 清淨品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0011_T_003-mulu-3
+    span:
+    - body
+    - 2832
+    - 2832
+  label: 8 悉持品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0011_T_003-mulu-4
+    span:
+    - body
+    - 4338
+    - 4338
+  label: 9 覺邪品
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6c0011_T_003-mulu-5
+    span:
+    - body
+    - 5471
+    - 5471
+  label: 10 照明十方品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-juan-start
+    span:
+    - body
+    - 0
+    - 8288
+  label: 大明度經卷第四
+  type: juan
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-1
+    span:
+    - body
+    - 36
+    - 36
+  label: 11 不可計品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-2
+    span:
+    - body
+    - 769
+    - 769
+  label: 12 譬喻品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-3
+    span:
+    - body
+    - 1276
+    - 1276
+  label: 13 分別品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-4
+    span:
+    - body
+    - 2203
+    - 2203
+  label: 14 本無品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-5
+    span:
+    - body
+    - 3210
+    - 3210
+  label: 15 不退轉品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-6
+    span:
+    - body
+    - 5098
+    - 5098
+  label: 16 竭清信女品
+  type: mulu
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR6c0011_T_004-mulu-7
+    span:
+    - body
+    - 7340
+    - 7340
+  label: 17 守空品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-juan-start
+    span:
+    - body
+    - 0
+    - 7920
+  label: 大明度經卷第五
+  type: juan
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-1
+    span:
+    - body
+    - 39
+    - 39
+  label: 18 遠離品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-2
+    span:
+    - body
+    - 1663
+    - 1663
+  label: 19 善友品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-3
+    span:
+    - body
+    - 2805
+    - 2805
+  label: 20 天帝釋品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-4
+    span:
+    - body
+    - 3140
+    - 3140
+  label: 21 貢高品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-5
+    span:
+    - body
+    - 3575
+    - 3575
+  label: 22 學品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-6
+    span:
+    - body
+    - 4208
+    - 4208
+  label: 23 守行品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-7
+    span:
+    - body
+    - 5295
+    - 5295
+  label: 24 強弱品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-8
+    span:
+    - body
+    - 6451
+    - 6451
+  label: 25 累教品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-9
+    span:
+    - body
+    - 7086
+    - 7086
+  label: 26 不盡品
+  type: mulu
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6c0011_T_005-mulu-10
+    span:
+    - body
+    - 7491
+    - 7491
+  label: 27 隨品
+  type: mulu
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6c0011_T_006-juan-start
+    span:
+    - body
+    - 0
+    - 6672
+  label: 大明度經卷第六
+  type: juan
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6c0011_T_006-mulu-1
+    span:
+    - body
+    - 25
+    - 25
+  label: 28 普慈闓士品
+  type: mulu
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6c0011_T_006-mulu-2
+    span:
+    - body
+    - 2966
+    - 2966
+  label: 29 法來闓士品
+  type: mulu
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR6c0011_T_006-mulu-3
+    span:
+    - body
+    - 5893
+    - 5893
+  label: 30 囑累阿難品
+  type: mulu
+  level: 1
+hash: sha256:ef75594dfc9bbc5976b15fdca492c5fe57ae4d34890972aca344553dc638c423
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

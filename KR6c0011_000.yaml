@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6c0011/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大明度經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T08/T08n0225.xml
+    old_id: T08n0225
+hash: sha256:63872e8bb2a000884e881f58ce206d9f09c2bb40018efd3bc73916e51fb64816
