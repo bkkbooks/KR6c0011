@@ -40,19 +40,20 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0011_000.yaml, hash: 'sha256:63872e8bb2a000884e881f58ce206d9f09c2bb40018efd3bc73916e51fb64816'}
-  - {seq: 1, filename: KR6c0011_001.yaml, hash: 'sha256:113a62eaa4cb7e6849c1581c9ef42949635cbae59e6b7027f72274cd3f40ab60'}
-  - {seq: 2, filename: KR6c0011_002.yaml, hash: 'sha256:0bd18149a966ef34071bdef11394f17dbb9836d1260b56d34e7d8bcc245c5b21'}
-  - {seq: 3, filename: KR6c0011_003.yaml, hash: 'sha256:bf9660d56239b554a47b14338b3725c262f5455c0aa3da21c053d2c4310e8d9f'}
-  - {seq: 4, filename: KR6c0011_004.yaml, hash: 'sha256:1d28bca2591346bbee580b3619e6be7cd496a7304efc790c7cb733703b2d1e64'}
-  - {seq: 5, filename: KR6c0011_005.yaml, hash: 'sha256:95c01a06d9c563ef537e8063523e2a917e7a712cbef9313a96d7151bf979ad7b'}
-  - {seq: 6, filename: KR6c0011_006.yaml, hash: 'sha256:b828601805c425d78ea7d0899bbba8dbb6b8c37be17cdd15046b2f377c36bf61'}
+  - {seq: 1, filename: KR6c0011_001.yaml, hash: 'sha256:232cb49c8f8329e5fe4f38a39884268d9100821c9cfcc4776790963290875bf2'}
+  - {seq: 2, filename: KR6c0011_002.yaml, hash: 'sha256:3277aaa2c0bf8e21326350597fead0ac035ed4572b8612b0bf846513af5c5e19'}
+  - {seq: 3, filename: KR6c0011_003.yaml, hash: 'sha256:96c0e72155bb2d4b5723c6d8ad558310b537bf62ee0400394046c5b2c761d276'}
+  - {seq: 4, filename: KR6c0011_004.yaml, hash: 'sha256:357c6d3e727d29b1a50c711615c21216954e57d98d3aa91419b4d02471f03bc2'}
+  - {seq: 5, filename: KR6c0011_005.yaml, hash: 'sha256:b35ba0be7d0a091a9af85806edfcd0a587fa2556bd06bccea9b67f188eaa58a9'}
+  - {seq: 6, filename: KR6c0011_006.yaml, hash: 'sha256:1626f49149860f123dd5a520082dfb255e4d19286cb86e9ebf0b39a0a1a27043'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6c0011_001.markers.yaml, hash: 'sha256:67d3545415dd4768a7f30f6396efacf44d3f5e45a0550dc3d2029e1afa4d9e51'}
-  - {seq: 2, role: markers, filename: assets/KR6c0011_002.markers.yaml, hash: 'sha256:9eac29779c3e8a78453d44d50f7878336dae7d747cf811f966cd04fb1498490d'}
-  - {seq: 3, role: markers, filename: assets/KR6c0011_003.markers.yaml, hash: 'sha256:4b7950231985af0ac820964a46909f1201ba1a6588e980ab6f97b4c70b37a647'}
-  - {seq: 4, role: markers, filename: assets/KR6c0011_004.markers.yaml, hash: 'sha256:d83b965a21844bee7f4f7b6f84b74957ee0c250c0c175be59a652ea4680bdad0'}
-  - {seq: 5, role: markers, filename: assets/KR6c0011_005.markers.yaml, hash: 'sha256:feb9be392a6e95c561141ae6e490b42fe6bf9ed871da5e15c0572bbe5b570a59'}
-  - {seq: 6, role: markers, filename: assets/KR6c0011_006.markers.yaml, hash: 'sha256:f01959fe5aa8debdcadf11ac646714e7ade2522f6381ed6e5fe102fbce8df4af'}
+  - {seq: 0, role: markers, filename: assets/KR6c0011_000.markers.yaml, hash: 'sha256:b6aa138861291ce7ed5ac38fac581cb6fa2b6cc27cc38a1e1c2039e9428e1c3f'}
+  - {seq: 1, role: markers, filename: assets/KR6c0011_001.markers.yaml, hash: 'sha256:58a0c1ed6639c72c9f2806eb33228a067eb1160d090ba1071e39d5a333b58428'}
+  - {seq: 2, role: markers, filename: assets/KR6c0011_002.markers.yaml, hash: 'sha256:d153e41a5caf4c89add9ac76a64ada8acb5f7de5e3bfa3a2edec63e3bdd209e1'}
+  - {seq: 3, role: markers, filename: assets/KR6c0011_003.markers.yaml, hash: 'sha256:e46b28060633b1bdbba57cc905319a4187fc2799448258ef9b66f339c03ac067'}
+  - {seq: 4, role: markers, filename: assets/KR6c0011_004.markers.yaml, hash: 'sha256:2924b1488352d968dd7034a64aef0f5e9542bfbee145a61537190588b91d44b5'}
+  - {seq: 5, role: markers, filename: assets/KR6c0011_005.markers.yaml, hash: 'sha256:d4d61edf2a0e8bf77c2b94febe57a025cc472621aafad26753f4a43a8cf00d69'}
+  - {seq: 6, role: markers, filename: assets/KR6c0011_006.markers.yaml, hash: 'sha256:de1a16300bb299a992af4a57084c7f185e98e8c3b172e3bdaaa181c906b8d122'}
 table_of_contents:
 - ref:
     seq: 1
@@ -414,7 +415,4 @@ table_of_contents:
   label: 30 囑累阿難品
   type: mulu
   level: 1
-hash: sha256:ef75594dfc9bbc5976b15fdca492c5fe57ae4d34890972aca344553dc638c423
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:f112af84a77c26fe7fcf22104822ad8cd8fe062c18c266df18fbe8e61b020622
